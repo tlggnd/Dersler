@@ -8,7 +8,7 @@
             <h2>PHP Kullanarak Ayakkabı Renk ve Numara Seçimi</h2><br>
             <form id="shoe-form" method="POST" action="">
                 <label for="color">Renk Seçin:</label>
-                <select name="color" id="color" required>
+                <select class="buttons" name="color" id="color" required>
                     <option value="siyah">Siyah</option>
                     <option value="beyaz">Beyaz</option>
                     <option value="kırmızı">Kırmızı</option>
@@ -16,11 +16,11 @@
                 </select>
 
                 <label for="size">Numara Seçin:</label>
-                <select name="size" id="size" required>
+                <select class="buttons" name="size" id="size" required>
                 </select>
                 
-                <button type="submit" name="submit">Sepete Ekle</button>
-            </form>
+                <button class="buttons" type="submit" name="submit">Sepete Ekle</button>
+            </form><br>
                 
             <?php
             if (isset($_POST['submit'])) {
