@@ -12,6 +12,7 @@ header{
     align-items: center;
     background-color: #fff;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.13);
+    justify-content: space-between;
 }
 
 
@@ -33,13 +34,11 @@ header{
 }
 
 .header-menu{
-    width: 80%;
+    width: 50%;
     height: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
-    
-    
 }
 
 .header-menu ul{
@@ -57,4 +56,9 @@ header{
     font-size: 1rem;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header-menu ul li a:hover {
+    color: #8f0000;
 }

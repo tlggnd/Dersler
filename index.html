@@ -11,9 +11,7 @@
 
     <header>
         <div id="header-logo">
-            <img src="assets/img/logo.png" id="header-logo" alt="">
-
-
+            <img src="assets/img/logo.png" id="header-logo" alt="Converse Logo">
         </div>
         
         <div class="header-menu">
@@ -33,6 +31,39 @@
 
 
     <main>
+
+
+        <h2>Ayakkabı Renk ve Numara Seçimi</h2>
+    <form method="POST" action="">
+        <!-- Renk Seçimi -->
+        <label for="color">Renk Seçin:</label>
+        <select name="color" id="color" required>
+            <option value="siyah">Siyah</option>
+            <option value="beyaz">Beyaz</option>
+            <option value="kırmızı">Kırmızı</option>
+            <option value="mavi">Mavi</option>
+        </select>
+        
+        <!-- Numara Seçimi -->
+        <label for="size">Numara Seçin:</label>
+        <select name="size" id="size" required>
+             for ($num = 36; $num <= 45; $num++) {
+                echo "<option value='$num'>$num</option>";
+            }
+            
+        </select>
+        
+        <button type="submit" name="submit">Sepete Ekle</button>
+    </form>
+
+    <?php
+    if (isset($_POST['submit'])) {
+        $color = $_POST['color'];
+        $size = $_POST['size'];
+        echo "<p>Seçilen Renk: $color</p>";
+        echo "<p>Seçilen Numara: $size</p>";
+    }
+    ?>
 
 
 
