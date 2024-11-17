@@ -14,20 +14,20 @@
 <body> 
 
 
-   <header>
-       <div id="header-logo">
-           <img src="assets/img/logo.png"  alt="Logo">
-       </div>
-    <div class="header-menu">
-           <ul>
-               <li><a href="./index.php">Ana Sayfa</a></li>
-               <li><a href="./javaislem.php">Java İşlem</a></li>
-               <li><a href="./phpislem.php">PHP İşlem</a></li>
-               <li><a href="#">İletişim</a></li>
-           </ul>
-      </div>
-   </header>
-<main>
+      <header>
+          <div id="header-logo">
+              <img src="assets/img/logo.png"  alt="Logo">
+          </div>
+       <div class="header-menu">
+              <ul>
+                  <li><a href="./index.php">Ana Sayfa</a></li>
+                  <li><a href="./javaislem.php">Java İşlem</a></li>
+                  <li><a href="./phpislem.php">PHP İşlem</a></li>
+                  <li><a href="#">İletişim</a></li>
+              </ul>
+         </div>
+      </header>
+    <main>
 
 
         <section class="main-slider">
