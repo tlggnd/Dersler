@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -13,7 +13,7 @@ body {
 
 main{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -90,30 +90,107 @@ header {
 
 
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #000000;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 1rem;
-    color: white;
-}
-
-footer p {
-    margin: 0;
-}
-
-
- 
-
-
-
 main .main-slider{
     width: 100%;
     height: 80vh;
 }
+
+
+/* ABOT ALANI */
+main .main-about{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .main-about-header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-about .main-about-header h1 {
+    font-size: 2.5rem;
+    font-family: "Playfair Display", serif;
+    
+
+
+}
+
+main .main-about .main-about-body{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid gray;
+    padding: 10px;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+main .main-about .main-about-body p{
+    line-height: -50px;
+
+}
+
+
+
+main .main-about .main-about-footer{
+    width: 100%;
+    height: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-about .main-about-footer .main-about-btn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 5px solid rgb(0, 0, 0);
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+/* ABOUT ALANI BİTTİ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -125,9 +202,11 @@ main .main-slider{
   .swiper-slide {
     background-position: center;
     background-size: cover;
-  }
+ }
 
   .swiper-slide img {
     display: block;
     width: 100%;
-  }
+}
+
+
