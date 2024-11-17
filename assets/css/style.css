@@ -7,7 +7,17 @@
 }
 
 body {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(255, 255, 255);
+}
+
+
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
@@ -78,18 +88,7 @@ header {
     display: flex;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 5px;
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #000000;
-    color: white;
-}
+
 
 footer {
     text-align: center;
@@ -107,25 +106,28 @@ footer p {
 }
 
 
+ 
 
-.buttons {
-    background-color: #000000; 
-    border: none;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    box-shadow: 0 0px 8px 0 rgba(255, 255, 255, 0.2), 0 0px 0px 0 rgba(255, 255, 255, 0.19);
-    transition-duration: 0.4s;
-    
-}
-.buttons {border-radius: 4px;}
-.buttons:hover {
-  background-color: #c0c0c0;
-  color: rgb(0, 0, 0);
 
+
+main .main-slider{
+    width: 100%;
+    height: 80vh;
 }
-  
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
