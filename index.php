@@ -34,7 +34,7 @@
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                <img src="assets/img/slide-1.jpg" />
               </div>
               <div class="swiper-slide">
                 <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
