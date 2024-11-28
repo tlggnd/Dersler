@@ -64,7 +64,32 @@
                  </button>
             </div>
         </section>
+        <section class="main-bize-katilin">
+          <div class="main-bize-katilin-left">
+            <img src="assets/img/bize-katilin.jpg" alt="">
+          </div>
 
+          <div class="main-bize-katilin-right">
+            <div class="main-bize-katilin-right-header">
+              <h2>Neler Yapıyoruz? </h2>
+            </div>
+            <div class="main-bize-katilin-right-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis ut ullam earum! Quisquam dolores esse numquam quia minus, ad similique fugiat doloremque labore deleniti alias ipsum ullam, recusandae impedit expedita reprehenderit quam, odit voluptatum nisi obcaecati amet excepturi laborum. Corrupti delectus ea suscipit quia. Dignissimos accusamus modi aut quibusdam.</p>
+            </div>
+            <div class="main-bize-katilin-right-footer">
+              <button class="main-bize-katilin-btn">İletişime Geç</button>
+
+          </div>
+
+
+        </section>
+
+        <section class="main-referance">
+            <div class="main-referance-box"><img src="assets/img/ref1.png" alt=""></div>
+            <div class="main-referance-box"><img src="assets/img/ref2.png" alt=""></div>
+            <div class="main-referance-box"><img src="assets/img/ref3.png" alt=""></div>
+            <div class="main-referance-box"><img src="assets/img/ref4.png" alt=""></div>
+        </section>
    
     </main>
 
